@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers as MainBaseController;
+use App\Http\Controllers\BaseController as MainBaseController;
 
 abstract class AdminBaseController extends MainBaseController
 {

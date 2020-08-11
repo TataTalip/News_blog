@@ -12,7 +12,7 @@ class NewsController extends Controller
     private $NewsRepository;
     public function __construct()
     {
-       // parent::__construct();
+        parent::__construct();
         $this->NewsRepository = app(NewsRepository::class);
     }
 

@@ -1,8 +1,8 @@
 <?php
 
 
-namespace App\Repositories;
-use app\Repositories\CoreRepository;
+namespace app\Repositories;
+use App\Repositories\CoreRepository;
 use app\models\admin\News as Model;
 
 class NewsRepository extends CoreRepository

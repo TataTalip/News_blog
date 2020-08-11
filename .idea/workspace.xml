@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ae31d54b-9eeb-496d-b7a1-a77020af8ec8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Repositories/CoreRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/NewsRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app_admin.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Blog/Core/BlogApp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Blog/Core/Registry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Blog/Core/TSingleTone.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/params.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/news_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/news_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/CoreRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/CoreRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/NewsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/NewsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/news/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news/admin/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +60,9 @@
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
     <include_path>
@@ -144,7 +172,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/layouts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -165,7 +193,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -183,11 +211,23 @@
       <workItem from="1596733830692" duration="1193000" />
       <workItem from="1596899118699" duration="749000" />
       <workItem from="1596900021854" duration="8355000" />
+      <workItem from="1597129168407" duration="5596000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="174" key="#CLI_Interpreters" timestamp="1596631050052">
@@ -206,10 +246,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1596899851010" />
-    <state x="570" y="157" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596912870719">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="713" y="198" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597129700154">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="570" y="157" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1596912870719" />
+    <state x="713" y="198" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597129700154" />
     <state x="592" y="217" key="FileChooserDialogImpl" timestamp="1596900194974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -231,10 +272,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596632205360" />
-    <state x="546" y="135" key="NewPhpClassDialog" timestamp="1596918483806">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="683" y="170" key="NewPhpClassDialog" timestamp="1597129664874">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="546" y="135" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1596918483806" />
+    <state x="683" y="170" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597129664874" />
+    <state x="795" y="443" key="NewPhpFileDialog" timestamp="1597129724693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="795" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597129724693" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1596631280175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
